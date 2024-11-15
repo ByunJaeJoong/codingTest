@@ -10,7 +10,6 @@ for tc in range(1, T + 1):
         subset_sum = 0
 
         for j in range(N):
-            print(1 << j)
             if i & (1 << j):
                 subset_sum += A[j]
 
